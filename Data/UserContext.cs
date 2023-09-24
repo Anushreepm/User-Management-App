@@ -15,7 +15,6 @@ namespace UsersCRUDApp.Data
         {
             modelBuilder.Entity<User>().HasKey(u => u.Id); // 'Id' is the primary key property
         }
-
     }
 }
 
